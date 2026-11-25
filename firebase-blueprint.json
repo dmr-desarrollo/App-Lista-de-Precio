@@ -1,0 +1,144 @@
+
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "type": "object",
+      "description": "Represents a user of the application, storing basic profile and role information.",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "The unique identifier from Firebase Authentication."
+        },
+        "email": {
+          "type": "string",
+          "description": "Email address of the user.",
+          "format": "email"
+        },
+        "displayName": {
+          "type": "string",
+          "description": "The user's display name."
+        },
+        "roles": {
+          "type": "array",
+          "description": "Roles of the user, determining access privileges.",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ADMINISTRADOR",
+              "VENDEDOR_DMR",
+              "USUARIO",
+              "CLIENTE_FINAL",
+              "REVENDEDOR",
+              "DISTRIBUIDOR"
+            ]
+          }
+        },
+        "status": {
+          "type": "string",
+          "description": "The status of the user account.",
+          "enum": [
+            "activo",
+            "inactivo"
+          ]
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of when the user profile was created."
+        }
+      },
+      "required": [
+        "uid",
+        "email",
+        "roles",
+        "status",
+        "createdAt"
+      ]
+    },
+    "Product": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Product",
+      "type": "object",
+      "description": "Represents a product in the catalog.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Product entity."
+        },
+        "sku": {
+          "type": "string",
+          "description": "Stock Keeping Unit; a unique identifier for the product."
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the product."
+        },
+        "brand": {
+          "type": "string",
+          "description": "Brand of the product."
+        },
+        "model": {
+          "type": "string",
+          "description": "Model of the product."
+        },
+        "listPrice": {
+          "type": "number",
+          "description": "List price of the product."
+        },
+        "availability": {
+          "type": "string",
+          "description": "Availability status of the product."
+        },
+        "categoryId": {
+          "type": "string",
+          "description": "Reference to Category. (Relationship: Category 1:N Product)"
+        }
+      },
+      "required": [
+        "id",
+        "sku",
+        "description",
+        "listPrice",
+        "categoryId"
+      ]
+    },
+    "Category": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Category",
+      "type": "object",
+      "description": "Represents a category of products, derived from the CSV filenames.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Category entity."
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the category, derived from the CSV filename."
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "google.com"
+    ]
+  },
+  "firestore": {
+    "collections": [
+      {
+        "path": "/users/{userId}",
+        "schema": {
+          "$ref": "#/entities/User"
+        },
+        "description": "Stores public-facing user profile information."
+      }
+    ]
+  }
+}

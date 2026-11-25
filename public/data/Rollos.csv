@@ -1,0 +1,121 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,TC,2024-01-02 00:00:00,esperado hasta 30/06/24
+NOTAS,,,,,,,,,,,,,,,,,,2024-01-02
+La lista de precios es por pago contado,,,,,,,,,,,,,,,,,,
+"Crédito 30 días se adiciona 0,25% en U$S o 1,25% en moneda nacional",,,,,,,,,,,,,,,,,,
+"Pago con cheque diferido 30 días se adiciona 0,6%",,,,,,,,,,,,,,,,,,
+Los cambios en la condición de pago deben ser autorizados por el Encargado Comercial,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+ROLLOS OBRA,,,,,,,,,"LISTA CLIENTES FINALES
+ (% márgen sobre precio Distribuidor- USD/un)",,,,LISTA REVENDEDOR (USD/un),,"LISTA DISTRIBUIDOR
+ (USD/un)",,,
+Referencia,código,Papel,Tipo,"Ancho
+(mm)","Diámetro
+(mm)",Buje,"largo
+(m)","Caja de
+(unid.)",LISTA 1 (1 caja),LISTA 2 (de 2 a 3 cajas),LISTA 3 (de 4 a 8 cajas),LISTA 4 (9 o más cajas),LISTA 1,LISTA 2,LISTA 3,,,
+,,,,,,,,,USD/un,USD/un,USD/un,USD/un,,,,,,
+"Rollo para calculadora
+57x57
+en papel Obra liso,
+de 57mm de ancho, 57mm de diámetro.
+13mm de diámetro de buje.
+",1.1.1.007.0,Obra de primera calidad,Liso,57,57,13,30,42,1.07,1,0.92,0.89,0.74,0.7,0.64,,,
+"Rollo para facturación en registradora
+70x70
+en papel Obra liso,
+de 70mm de ancho, 70mm de diámetro.
+13mm de diámetro de buje.",1.1.1.012.0,,Liso,70,70,13,50,40,1.1,1.05,0.96,0.87,0.76,0.7,0.65,,,
+"Rollo para comandera
+75x60
+en papel Obra liso,
+de 75mm de ancho, 60mm de diámetro.
+13mm de diámetro de buje.",1.1.1.013.0,,Liso,75,60,13,34,50,1,0.93,0.86,0.78,0.740807,0.62,0.57,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+ROLLOS TÉRMICOS,,,,,,,,,"LISTA CLIENTES FINALES
+ (% márgen sobre precio Distribuidor- USD/un)",,,,LISTA REVENDEDOR (USD/un),,"LISTA DISTRIBUIDOR
+ (USD/un)",,,
+Referencia,código,Papel,Tipo,"Ancho
+(mm)","Diámetro
+(mm)",Buje,"largo
+(m)","Caja de
+(unid.)",LISTA 1 (1 caja),LISTA 2 (de 2 a 3 cajas),LISTA 3 (de 4 a 8 cajas),LISTA 4 (9 o más cajas),LISTA 1,LISTA 2,LISTA 3,,,
+,,,,,,,,,USD/un,USD/un,USD/un,USD/un,,,,,,
+"Rollo para pos
+57x30
+en papel Térmico liso,
+de 57mm de ancho, 30mm de diámetro.
+13mm de diámtro de buje. Blister de 10 rollos
+IPOS MINI",1.4.1.169.0,Térmico,Liso,57,30,13,-,80,0.4,0.39,0.38,0.37,0.34,0.32,0.31,,,
+"Rollo para pos
+57x40
+en papel Térmico liso,
+de 57mm de ancho, 40mm de diámetro.
+13mm de diámtro de buje. Blister de 10 rollos",1.4.1.170.0,Térmico,Liso,57,40,13,-,80,0.51,0.5,0.48,0.47,0.41,0.39,0.38,,,
+"Rollo para pos
+57x40
+en papel Térmico liso,
+de 57mm de ancho, 40mm de diámetro.
+13mm de diámtro de buje.",1.4.1.043.0,Térmico,Liso,57,40,13,,80,0.51,0.5,0.48,0.47,0.41,0.39,0.38,,,
+"Rollo para pos
+57x50
+en papel Térmico Hansol liso,
+de 57mm de ancho, 30mm de diámetro.
+13mm de diámtro de buje",1.4.1.004.0,Térmico,Liso,57,50,13,30,48,0.91,0.86,0.79,0.74,0.65,0.61,0.55,,,
+"Rollo para dispensador de turno 57x80 en papel térmico liso, 13mm de diámetro de buje.",1.4.1.163.0,Térmico,Liso,57,80,13,76,48,,,,,,,1.07,precio oferta hasta agotar stock,,
+RolloTermLiso Stka80d80g55b13c5u32,1.4.1.178.0,Térmico,Liso,80,80,13,-,32,1.38,1.36,1.32,1.26,1.03,1.02,0.97,,,
+"Rollo para facturación electrónica 80x80 en papel térmico Hansol liso, 13mm de diámetro de buje. Blister de 4 rollos",1.4.1.168.0,Térmico,Liso,80,80,13,-,32,1.12,1.11,1.08,1.03,0.85,0.84,0.81,,,
+"Rollo para facturación electrónica 80x80 en papel térmico Hansol liso, 13mm de diámetro de buje. IMPRESO RED PAGOS AL DORSO",1.4.2.045.0,Térmico,Liso,80,80,13,79,32,1.7,1.64,1.49,1.43,1.35,1.29,1.21,,,
+Para APEX 3,1.4.1.111.0,Térmico,Liso,80,35,13,14,110,0.5,0.46,0.43,0.4,0.35,0.32,0.3,,,
+Para APEX 4,1.4.1.064.0,Térmico,Liso,110,25.5,13,25.5,64,1.14,1.06,0.99,0.91,0.8,0.74,0.68,,,
+"Rollo para facturación electrónica
+110x100
+en papel térmico Hansol liso,
+13mm de diámetro de buje.",1.4.1.030.0,Térmico,Liso,110,100,13,100,18,4.21,3.91,3.61,3.31,2.88,2.65,2.41,,,
+"Rollo para facturación electrónica
+80x80
+en papel térmico OJI liso,
+13mm de diámetro de buje.",1.4.1.092.0,Térmico Top,Liso,79.5,80,13,62,32,3.81,3.67,3.38,3.08,2.9,2.76,2.64,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+ROLLOS DUPLICADO,,,,,,,,,"LISTA CLIENTES FINALES
+ (% márgen sobre precio Distribuidor- USD/un)",,,,LISTA REVENDEDOR (USD/un),,"LISTA DISTRIBUIDOR
+ (USD/un)",,,
+Referencia,código,Papel,Tipo,"Ancho
+(mm)","Diámetro
+(mm)",Buje,"largo
+(m)","Caja de
+(unid.)",LISTA 1 (1 caja),LISTA 2 (de 2 a 3 cajas),LISTA 3 (de 4 a 8 cajas),LISTA 4 (9 o más cajas),LISTA 1,LISTA 2,LISTA 3,,,
+,,,,,,,,,USD/un,USD/un,USD/un,USD/un,,,,,,
+"DUPLICADO/ AUTOCOPIATIVO 
+para TMU220",1.2.1.001.0,Obra Self,Liso,75,60,13,21,50,2.34,2.18,2.01,1.8599139000000002,1.62,1.5,1.38,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+ROLLOS DE PAPEL PARA ENVOLVER,,,,,,,,,"LISTA CLIENTES FINALES
+ (USD/kilo)",,"LISTA DISTRIBUIDOR
+ (USD/un)",,,,,,,
+Referencia,código,Papel,Tipo,"Ancho
+(mm)",Kilos,Buje,"largo
+(m)",Paquete,LISTA 1,LISTA 3,LISTA 1,,,,,,,
+,,,,,,,,,menos 50kg,101 a 200kg,,,,,,,,
+"Rollo liso para envolver
+en papel sulfito de primera calidad.
+De 500mm de ancho.
+30mm de diámetro de buje.
+Presentación: 8kg por rollo.",1.5.1.002.0,Sulfito de primera,Liso,500,8,30,,1,5.49,,,,,,,,,
+"Rollo liso para envolver
+en papel sulfito de segunda calidad.
+De 500mm de ancho.
+30mm de diámetro de buje.
+Presentación: 5kg por rollo.",1.6.1.002.0,Sulfito de segunda,Liso,500,5,30,,1,3.97,,,,,,,,,
